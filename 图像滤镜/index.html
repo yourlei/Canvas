@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	        Rubberbands with getImageData() and putImageData()
+	     </title>
+
+	      <style> 
+	      body {
+             background: rgba(255, 255, 250, 0.8);
+          }
+          .canvas
+          {
+          	display: block;
+          	margin: 10% auto;
+          	box-shadow: 0 0 10px rgba(0,0,0,.8);
+          	cursor: crosshair;
+          }
+
+         .controls {
+            margin: 20px 0px 20px 20px;
+         }
+
+	      </style>
+</head>
+<body>
+	 <div class='controls'>
+	    <input type='checkbox'
+                id='negativeBtn' checked/>
+         负片
+	 </div>
+	 
+	 <canvas class="canvas" id='canvas' width='800' height='520'>
+	    Canvas not supported
+	 </canvas>
+
+	 <div class='controls'>
+	    <input type='checkbox'
+                id='blackwhiteBtn' checked/>
+         黑白
+	 </div>
+	 
+	 <canvas class="canvas" id='canvas2' width='800' height='520'>
+	    Canvas not supported
+	 </canvas>
+
+ 	 <div class='controls'>
+ 	    <input type='checkbox'
+                 id='embossBtn' checked/>
+          浮雕
+ 	 </div>
+ 	 
+ 	 <canvas class="canvas" id='canvas3' width='800' height='520'>
+ 	    Canvas not supported
+ 	 </canvas>
+	<script src='main.js'></script>
+</body>
+</html>

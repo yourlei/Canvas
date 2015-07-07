@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	        Rubberbands with getImageData() and putImageData()
+	     </title>
+
+	      <style> 
+	      body {
+             background: rgba(255, 255, 250, 0.8);
+          }
+          #canvas
+          {
+          	display: block;
+          	margin: 10% auto;
+          	box-shadow: 0 0 10px rgba(0,0,0,.8);
+          	cursor: crosshair;
+          }
+
+         #controls {
+            margin: 20px 0px 20px 20px;
+         }
+
+	      </style>
+</head>
+<body>
+	 <div id='controls'>
+	    <input type='button' id='resetButton' value='Reset'/>
+	 </div>
+	 
+	 <canvas id='canvas' width='800' height='520'>
+	    Canvas not supported
+	 </canvas>
+	<script src='main.js'></script>
+</body>
+</html>

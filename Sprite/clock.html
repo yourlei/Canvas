@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+   <head>
+     <title>Calculating Frames/Second</title>
+
+      <style> 
+         body {
+            background: #dddddd;
+         }
+
+         #canvas {
+            background: #ffffff;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-top: 10px;
+            -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+         }
+
+         #controls {
+            margin-top: 10px;
+            margin-left: 15px;
+         }
+      </style>
+   </head>
+
+  <body>
+    <canvas id='canvas' width='550' height='500'>
+      Canvas not supported
+    </canvas>
+
+    <script src='./animate.js'></script>
+    <script src='./sprites.js'></script>
+    <script src="./clock.js"></script>
+  </body>
+</html>

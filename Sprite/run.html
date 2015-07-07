@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+      <title>Animating with sprite sheets</title>
+
+       <style> 
+          body {
+             background: #dddddd;
+          }
+
+          #canvas {
+             position: absolute;
+             left: 0px;
+             top: 20px;
+             margin: 20px;
+             background: #ffffff;
+             border: thin inset rgba(100,150,230,0.5);
+          }
+
+          #animateButton {
+             margin-top: 10px;
+             margin-left: 15px;
+             margin-bottom: 10px;
+          }
+       </style>
+    </head>
+
+   <body>
+     <input id='animateBtn' type='button' value='Animate'/>
+
+     <canvas id='canvas' width='462' height='200'>
+       Canvas not supported
+     </canvas>
+
+     <script src='./animate.js'></script>
+     <script src='./sprites.js'></script>
+     <script src='./run.js'></script>
+   </body>
+ </html>
